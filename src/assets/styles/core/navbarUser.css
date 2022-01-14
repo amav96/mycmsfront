@@ -1,0 +1,119 @@
+
+
+.input-container{
+    position: relative;
+    
+  }
+  .input-container .input-search{
+    width: 65vw;
+  }
+
+  .input-search{
+    background:white;
+    border-radius: 15px;
+    height:40px;
+    margin-right: 10px;
+    margin-left: 0px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.11);
+    padding: 10px 0.5rem 10px 0.8rem;
+    outline: none;
+  }
+  
+   .input-container i {
+      position: absolute;
+      left: 54.5vw; 
+      top: 0.25rem;
+      color: rgb(187, 187, 187);
+      cursor: pointer;
+      width:2rem ;
+      height:2rem ;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+    }
+  
+
+
+    @media (min-width: 550px){
+      
+        .input-container i {
+              left: 58vw; 
+        }
+    }
+
+    @media (min-width: 650px){
+
+
+        .logo{
+          margin-left: 80px;
+          margin-right: 10px;
+        }
+        .car{
+          margin-left: 10px;
+          margin-right: 80px;
+         
+        }
+    }
+
+    @media (min-width: 720px){
+      .input-container .input-search{
+        width: 50vw;
+      }
+
+      .input-container i {
+        left: 45vw; 
+    }
+
+    .logo{
+      margin-left: 5px;
+      margin-right: 10px;
+    }
+    .car{
+      margin-left: 10px;
+      margin-right: 10px;
+     
+    }
+  }
+
+    @media (min-width: 920px){
+      .input-container .input-search{
+        width: 33vw;
+      }
+
+      .input-container i {
+        left: 29.5vw; 
+      }
+
+     
+
+      .logo{
+        margin-left: 80px;
+        margin-right: 10px;
+      }
+      .car{
+        margin-left: 10px;
+        margin-right: 80px;
+       
+      }
+  }
+
+  @media (min-width: 1024px){
+   
+    .input-container i {
+      left: 29vw; 
+    }
+  }
+
+  @media (min-width: 1200px){
+   
+    .input-container i {
+      left: 30vw; 
+    }
+  }
+
+    
+
+   
+
+  
